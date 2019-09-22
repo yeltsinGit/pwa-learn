@@ -1,0 +1,29 @@
+{
+  "name": "pwa-learn",
+  "author": "Leon Yalin",
+  "version": "1.0.0",
+  "description": "This project helps in learning progressive web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeltsinGit/pwa-learn.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeltsinGit/pwa-learn/issues"
+  },
+  "homepage": "https://github.com/yeltsinGit/pwa-learn#readme",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
